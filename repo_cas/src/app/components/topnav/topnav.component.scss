@@ -1,0 +1,49 @@
+.dashboard {
+    display: flex;
+    height: 20vh; /* Make it full height */
+}
+
+/* Content styling */
+.content {
+    flex-grow: 1; /* Allow the content to grow and fill the remaining space */
+    background-color: #8CD4DB; /* Background color of the content area */
+    padding: 20px;
+    position: fixed;
+    min-width: 100%;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3% 8%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #DFEDF2;
+  min-width: 114px;
+
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  color: #000000;
+  padding: 12px 13px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #F2DCC7;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
